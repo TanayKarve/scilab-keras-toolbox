@@ -1,0 +1,97 @@
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>image_model</title>
+    <style type="text/css" media="all">
+      @import url("scilab_code.css");
+      @import url("xml_code.css");
+      @import url("c_code.css");
+      @import url("style.css");
+    </style>
+  </head>
+  <body>
+    <div class="manualnavbar">
+    <table width="100%"><tr>
+      <td width="30%">
+    	<span class="previous"><a href="ANN_train.html">&lt;&lt; ANN_train</a></span>
+
+      </td>
+      <td width="40%" class="center">
+      	<span class="top"><a href="section_6ca2a8b274bf68bdf06b568b4575c41e.html">keras_toolbox</a></span>
+
+      </td>
+      <td width="30%" class="next">
+      	<span class="next"><a href="image_model_test.html">image_model_test &gt;&gt;</a></span>
+
+      </td>
+    </tr></table>
+      <hr />
+    </div>
+
+
+
+    <span class="path" dir="ltr"><a href="index.html">keras_toolbox</a> &gt;&gt; <a href="section_6ca2a8b274bf68bdf06b568b4575c41e.html">keras_toolbox</a> &gt; image_model</span>
+
+    <br /><br />
+    <div class="refnamediv"><h1 class="refname">image_model</h1>
+    <p class="refpurpose">This function is used to develop a transfer-learning image recognition model.</p></div>
+
+
+<div class="refsynopsisdiv"><h3 class="title">Syntax</h3>
+   <div class="synopsis"><pre><span class="default">y</span><span class="default"> = </span><span class="functionid">image_model</span><span class="default">(</span><span class="default">in1</span><span class="default">);</span></pre></div></div>
+
+<div class="refsection"><h3 class="title">Parameters</h3>
+   <dl><dt><span class="term">y :</span>
+            <dd><p class="para">training accuracy of the model</p></dd></dt>
+        <dt><span class="term">in1 :</span>
+            <dd><p class="para">Number of epochs</p></dd></dt></dl></div>
+
+<div class="refsection"><h3 class="title">Description</h3>
+   <p class="para">Upon calling this function, a dialog box will open which will ask you to choose a directory containing
+image files used to train the model. The image directory structure should by as follows.</p>
+   <p class="para">example:</p>
+   <p class="para">pets/</p>
+   <p class="para">  dogs/</p>
+   <p class="para">    dog001.jpg</p>
+   <p class="para">    dog002.jpg</p>
+   <p class="para">    ...</p>
+   <p class="para">  cats/</p>
+   <p class="para">    cat001.jpg</p>
+   <p class="para">    cat002.jpg</p>
+   <p class="para"></p>
+   <p class="para">where dogs and cats are the names of your image.
+Both class names and image names must be unique.
+So if such a directory structure is present, the folder &#0034;pets&#0034; must be selected.
+Supported image formats are jpg, jpeg and png.
+The folder &#0039;alphabets&#0039; is provided with this zip, containing image dataset of A, B and C letters.
+Select this folder when asked for image directory by the dialog boox.</p>
+   <p class="para"></p></div>
+
+<div class="refsection"><h3 class="title">Examples</h3>
+   <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabcomment">//Testing the neural network for input values sample to guess class name</span>
+<span class="scilabid">y</span> <span class="scilaboperator">=</span> <span class="scilabid">image_model</span><span class="scilabopenclose">(</span><span class="scilabnumber">10</span><span class="scilabopenclose">)</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
+
+<div class="refsection"><h3 class="title">Authors</h3>
+   <ul class="itemizedlist"><li class="member">Tanay Karve</li></ul></div>
+    <br />
+
+    <div class="manualnavbar">
+    <table width="100%">
+    <tr><td colspan="3" class="next"><a href="http://bugzilla.scilab.org/enter_bug.cgi?product=Scilab%20software&component=Documentation%20pages" class="ulink">Report an issue</a></td></tr>
+<tr>
+      <td width="30%">
+    	<span class="previous"><a href="ANN_train.html">&lt;&lt; ANN_train</a></span>
+
+      </td>
+      <td width="40%" class="center">
+      	<span class="top"><a href="section_6ca2a8b274bf68bdf06b568b4575c41e.html">keras_toolbox</a></span>
+
+      </td>
+      <td width="30%" class="next">
+      	<span class="next"><a href="image_model_test.html">image_model_test &gt;&gt;</a></span>
+
+      </td>
+    </tr></table>
+      <hr />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from ANN_train.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="ANN_train" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>ANN_train</refname>
+    <refpurpose>This function is used to train the neural network on a dataset.</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   y = ANN_train(in1,in2,in3);
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>y :</term>
+            <listitem><para> training accuracy</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>in1 :</term>
+            <listitem><para> hidden layers, the architecture of the neural network which must contain a string of comma-separated numbers of hidden layers.</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>in2 :</term>
+            <listitem><para> Total training epochs for the neural network.</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>in3 :</term>
+            <listitem><para> Batch size</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+
+<refsection>
+   <title>Description</title>
+   <para>
+Upon calling this function, a dialog box will open which will ask you to
+choose the '.csv' file containing the dataset.
+The dataset must have headers and a label column.
+An input will be requested on the scilab console asking you to input the name
+of the the column in the dataset which is to be predicted.
+When the dialog box appears, select this "iris.csv" file for the dataset.
+When the input is requested on the scilab console, enter "name".
+   </para>
+   <para>
+   </para>
+   <para>
+</para>
+</refsection>
+
+<refsection>
+   <title>Examples</title>
+   <programlisting role="example"><![CDATA[
+//Training a neural network with first hidden layer containing 5 neurons and second containing 6 neurons, with 20 epochs having batch size as 1
+y = ANN_train(layers="5,6",epochs=20,batchsize=1);
+
+   ]]></programlisting>
+</refsection>
+
+<refsection>
+   <title>Authors</title>
+   <simplelist type="vert">
+   <member>Tanay Karve</member>
+   </simplelist>
+</refsection>
+</refentry>

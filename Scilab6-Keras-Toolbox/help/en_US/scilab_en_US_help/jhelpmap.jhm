@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE map PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN" "http://java.sun.com/products/javahelp/map_1_0.dtd">
+<map version="1.0">
+<mapID target="index" url="index.html"/>
+<mapID target="section_6ca2a8b274bf68bdf06b568b4575c41e" url="section_6ca2a8b274bf68bdf06b568b4575c41e.html"/>
+<mapID target="ANN_test_sample" url="ANN_test_sample.html"/>
+<mapID target="ANN_train" url="ANN_train.html"/>
+<mapID target="image_model" url="image_model.html"/>
+<mapID target="image_model_test" url="image_model_test.html"/>
+<mapID target="plotConfusionMatrix" url="plotConfusionMatrix.html"/>
+<mapID target="plotTrainingAccuracy" url="plotTrainingAccuracy.html"/>
+<mapID target="plotTrainingLoss" url="plotTrainingLoss.html"/>
+</map>

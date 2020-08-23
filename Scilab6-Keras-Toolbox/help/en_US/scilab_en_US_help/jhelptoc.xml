@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN" "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+<toc version="1.0">
+<tocitem target="index" text="keras_toolbox">
+<tocitem target="section_6ca2a8b274bf68bdf06b568b4575c41e" text="keras_toolbox">
+<tocitem target="ANN_test_sample" text="ANN_test_sample"/>
+<tocitem target="ANN_train" text="ANN_train"/>
+<tocitem target="image_model" text="image_model"/>
+<tocitem target="image_model_test" text="image_model_test"/>
+<tocitem target="plotConfusionMatrix" text="plotConfusionMatrix"/>
+<tocitem target="plotTrainingAccuracy" text="plotTrainingAccuracy"/>
+<tocitem target="plotTrainingLoss" text="plotTrainingLoss"/>
+</tocitem>
+</tocitem>
+</toc>

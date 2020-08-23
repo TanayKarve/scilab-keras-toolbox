@@ -1,0 +1,91 @@
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>ANN_train</title>
+    <style type="text/css" media="all">
+      @import url("scilab_code.css");
+      @import url("xml_code.css");
+      @import url("c_code.css");
+      @import url("style.css");
+    </style>
+  </head>
+  <body>
+    <div class="manualnavbar">
+    <table width="100%"><tr>
+      <td width="30%">
+    	<span class="previous"><a href="ANN_test_sample.html">&lt;&lt; ANN_test_sample</a></span>
+
+      </td>
+      <td width="40%" class="center">
+      	<span class="top"><a href="section_6ca2a8b274bf68bdf06b568b4575c41e.html">keras_toolbox</a></span>
+
+      </td>
+      <td width="30%" class="next">
+      	<span class="next"><a href="image_model.html">image_model &gt;&gt;</a></span>
+
+      </td>
+    </tr></table>
+      <hr />
+    </div>
+
+
+
+    <span class="path" dir="ltr"><a href="index.html">keras_toolbox</a> &gt;&gt; <a href="section_6ca2a8b274bf68bdf06b568b4575c41e.html">keras_toolbox</a> &gt; ANN_train</span>
+
+    <br /><br />
+    <div class="refnamediv"><h1 class="refname">ANN_train</h1>
+    <p class="refpurpose">This function is used to train the neural network on a dataset.</p></div>
+
+
+<div class="refsynopsisdiv"><h3 class="title">Syntax</h3>
+   <div class="synopsis"><pre><span class="default">y</span><span class="default"> = </span><span class="functionid">ANN_train</span><span class="default">(</span><span class="default">in1</span><span class="default">,</span><span class="default">in2</span><span class="default">,</span><span class="default">in3</span><span class="default">);</span></pre></div></div>
+
+<div class="refsection"><h3 class="title">Parameters</h3>
+   <dl><dt><span class="term">y :</span>
+            <dd><p class="para">training accuracy</p></dd></dt>
+        <dt><span class="term">in1 :</span>
+            <dd><p class="para">hidden layers, the architecture of the neural network which must contain a string of comma-separated numbers of hidden layers.</p></dd></dt>
+        <dt><span class="term">in2 :</span>
+            <dd><p class="para">Total training epochs for the neural network.</p></dd></dt>
+        <dt><span class="term">in3 :</span>
+            <dd><p class="para">Batch size</p></dd></dt></dl></div>
+
+<div class="refsection"><h3 class="title">Description</h3>
+   <p class="para">Upon calling this function, a dialog box will open which will ask you to
+choose the &#0039;.csv&#0039; file containing the dataset.
+The dataset must have headers and a label column.
+An input will be requested on the scilab console asking you to input the name
+of the the column in the dataset which is to be predicted.
+When the dialog box appears, select this &#0034;iris.csv&#0034; file for the dataset.
+When the input is requested on the scilab console, enter &#0034;name&#0034;.</p>
+   <p class="para"></p>
+   <p class="para"></p></div>
+
+<div class="refsection"><h3 class="title">Examples</h3>
+   <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabcomment">//Training a neural network with first hidden layer containing 5 neurons and second containing 6 neurons, with 20 epochs having batch size as 1</span>
+<span class="scilabid">y</span> <span class="scilaboperator">=</span> <span class="scilabid">ANN_train</span><span class="scilabopenclose">(</span><span class="scilabid">layers</span><span class="scilaboperator">=</span><span class="scilabstring">&#0034;</span><span class="scilabstring">5,6</span><span class="scilabstring">&#0034;</span><span class="scilabdefault">,</span><span class="scilabid">epochs</span><span class="scilaboperator">=</span><span class="scilabnumber">20</span><span class="scilabdefault">,</span><span class="scilabid">batchsize</span><span class="scilaboperator">=</span><span class="scilabnumber">1</span><span class="scilabopenclose">)</span><span class="scilabdefault">;</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
+
+<div class="refsection"><h3 class="title">Authors</h3>
+   <ul class="itemizedlist"><li class="member">Tanay Karve</li></ul></div>
+    <br />
+
+    <div class="manualnavbar">
+    <table width="100%">
+    <tr><td colspan="3" class="next"><a href="http://bugzilla.scilab.org/enter_bug.cgi?product=Scilab%20software&component=Documentation%20pages" class="ulink">Report an issue</a></td></tr>
+<tr>
+      <td width="30%">
+    	<span class="previous"><a href="ANN_test_sample.html">&lt;&lt; ANN_test_sample</a></span>
+
+      </td>
+      <td width="40%" class="center">
+      	<span class="top"><a href="section_6ca2a8b274bf68bdf06b568b4575c41e.html">keras_toolbox</a></span>
+
+      </td>
+      <td width="30%" class="next">
+      	<span class="next"><a href="image_model.html">image_model &gt;&gt;</a></span>
+
+      </td>
+    </tr></table>
+      <hr />
+    </div>
+  </body>
+</html>

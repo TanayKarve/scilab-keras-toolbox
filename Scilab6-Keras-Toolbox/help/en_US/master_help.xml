@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+<!--Begin Entities-->
+<!ENTITY a2f0e1efcfac2bddc4a2a0b1563f00610 SYSTEM "/home/osboxes/scilab/submissions/5/Scilab6-Keras-Toolbox/help/en_US/ANN_test_sample.xml">
+<!ENTITY af3214f9bda93b486f8151eb5fd1c065b SYSTEM "/home/osboxes/scilab/submissions/5/Scilab6-Keras-Toolbox/help/en_US/ANN_train.xml">
+<!ENTITY a20647a4c482d3586916859d0a8f1548a SYSTEM "/home/osboxes/scilab/submissions/5/Scilab6-Keras-Toolbox/help/en_US/image_model.xml">
+<!ENTITY a37d56877663c9c73592eb4163055bb58 SYSTEM "/home/osboxes/scilab/submissions/5/Scilab6-Keras-Toolbox/help/en_US/image_model_test.xml">
+<!ENTITY a6e78ad9c7ebe589151d8776540cccaa9 SYSTEM "/home/osboxes/scilab/submissions/5/Scilab6-Keras-Toolbox/help/en_US/plotConfusionMatrix.xml">
+<!ENTITY aaef80114596c3dbba3aea65b4d839e4e SYSTEM "/home/osboxes/scilab/submissions/5/Scilab6-Keras-Toolbox/help/en_US/plotTrainingAccuracy.xml">
+<!ENTITY aa923f1387df300a8d4cd5113014d52bd SYSTEM "/home/osboxes/scilab/submissions/5/Scilab6-Keras-Toolbox/help/en_US/plotTrainingLoss.xml">
+<!--End Entities-->
+]>
+<book version="5.0-subset Scilab" xml:lang="en_US"
+      xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <info xml:id='keras_toolbox_manual'>
+    <title>keras_toolbox</title>
+  </info>
+
+<part xml:id='section_6ca2a8b274bf68bdf06b568b4575c41e'>
+<title>keras_toolbox</title>
+&a2f0e1efcfac2bddc4a2a0b1563f00610;
+&af3214f9bda93b486f8151eb5fd1c065b;
+&a20647a4c482d3586916859d0a8f1548a;
+&a37d56877663c9c73592eb4163055bb58;
+&a6e78ad9c7ebe589151d8776540cccaa9;
+&aaef80114596c3dbba3aea65b4d839e4e;
+&aa923f1387df300a8d4cd5113014d52bd;
+</part>
+</book>

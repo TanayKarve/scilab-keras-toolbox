@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scilablib name="keras_toolboxlib">
+  <macro name="ANN_test_sample" file="ANN_test_sample.bin" md5="916d3a4fb1c2a3a47a8a549c5cac6c43"/>
+  <macro name="ANN_train" file="ANN_train.bin" md5="aeaeb3a7b74aadb76529e5210033ac29"/>
+  <macro name="image_model" file="image_model.bin" md5="4fee3e094ff76f6baf229bba3ec470bb"/>
+  <macro name="image_model_test" file="image_model_test.bin" md5="187968ac1d0257cb6349fb5dc3dbd8ba"/>
+  <macro name="plotConfusionMatrix" file="plotConfusionMatrix.bin" md5="9c3f2cea05ae4ee5104bb4e2e4d80d26"/>
+  <macro name="plotTrainingAccuracy" file="plotTrainingAccuracy.bin" md5="94cf4e3dddb4a7c9f0245acdbb66a470"/>
+  <macro name="plotTrainingLoss" file="plotTrainingLoss.bin" md5="7d3b949cdc94ca79c9130fb2ef5e9ca7"/>
+</scilablib>

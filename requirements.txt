@@ -1,0 +1,7 @@
+numpy
+pandas
+sklearn
+pillow
+keras==2.3.1
+tensorflow
+matplotlib

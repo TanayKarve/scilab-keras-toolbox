@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from image_model.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="image_model" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>image_model</refname>
+    <refpurpose>This function is used to develop a transfer-learning image recognition model.</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   y = image_model(in1);
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>y :</term>
+            <listitem><para> training accuracy of the model</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>in1 :</term>
+            <listitem><para> Number of epochs</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+
+<refsection>
+   <title>Description</title>
+   <para>
+Upon calling this function, a dialog box will open which will ask you to choose a directory containing
+image files used to train the model. The image directory structure should by as follows.
+   </para>
+   <para>
+example:
+   </para>
+   <para>
+pets/
+   </para>
+   <para>
+&#160;&#160;dogs/
+   </para>
+   <para>
+&#160;&#160;&#160;&#160;dog001.jpg
+   </para>
+   <para>
+&#160;&#160;&#160;&#160;dog002.jpg
+   </para>
+   <para>
+&#160;&#160;&#160;&#160;...
+   </para>
+   <para>
+&#160;&#160;cats/
+   </para>
+   <para>
+&#160;&#160;&#160;&#160;cat001.jpg
+   </para>
+   <para>
+&#160;&#160;&#160;&#160;cat002.jpg
+   </para>
+   <para>
+   </para>
+   <para>
+where dogs and cats are the names of your image.
+Both class names and image names must be unique.
+So if such a directory structure is present, the folder "pets" must be selected.
+Supported image formats are jpg, jpeg and png.
+The folder 'alphabets' is provided with this zip, containing image dataset of A, B and C letters.
+Select this folder when asked for image directory by the dialog boox.
+   </para>
+   <para>
+</para>
+</refsection>
+
+<refsection>
+   <title>Examples</title>
+   <programlisting role="example"><![CDATA[
+//Testing the neural network for input values sample to guess class name
+y = image_model(10)
+
+   ]]></programlisting>
+</refsection>
+
+<refsection>
+   <title>Authors</title>
+   <simplelist type="vert">
+   <member>Tanay Karve</member>
+   </simplelist>
+</refsection>
+</refentry>
